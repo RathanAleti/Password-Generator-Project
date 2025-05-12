@@ -25,6 +25,7 @@ for a in range (0,number_of_symbols):
 for a in range (0,number_of_numbers):
     password.append(random.choice(symbols))
 print(password)
+#Used random shuffle
 random.shuffle(password)
 print(password)
 
